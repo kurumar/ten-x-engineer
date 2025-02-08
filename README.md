@@ -1,6 +1,6 @@
 # Ten-x-engineer Bot
 
-This is a [Cloudflare worker](https://developers.cloudflare.com/workers/) that commits to a GitHub repository every day at midnight UTC to create shiny statistics on your profile.
+This is a [Cloudflare worker](https://developers.cloudflare.com/workers/) that commits to a GitHub repository every day at midnight UTC to create shiny statistics on your GitHub profile.
 
 ## Setup
 
@@ -19,10 +19,6 @@ The worker will:
 - Make 1-10 random commits
 - Each commit updates this README with a random number (0-99)
 - Wait 5 seconds between commits
-
-## Development
-
-For local development, create a `.dev.vars` file with the required environment variables.
 
 ## Contributing
 
