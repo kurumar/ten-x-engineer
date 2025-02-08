@@ -7,7 +7,7 @@ This is a [Cloudflare worker](https://developers.cloudflare.com/workers/) that c
 1. Clone this repository
 2. Install dependencies with `npm install`
 3. Deploy the worker to Cloudflare with `npm run deploy`
-4. Create secrets in the worker settings for the following variables:
+4. Create secrets in the Cloudflare worker dashboard for the following variables:
     - `GITHUB_API_TOKEN`: A GitHub API token with access to the repository.
     - `GITHUB_REPO`: The name of the repository to commit to.
     - `GITHUB_OWNER`: The owner of the repository.
@@ -17,8 +17,7 @@ This is a [Cloudflare worker](https://developers.cloudflare.com/workers/) that c
 The worker will:
 - Run once per day at midnight UTC
 - Make 1-10 random commits
-- Each commit updates this README with a random number (0-99)
-- Wait 5 seconds between commits
+- Each commit updates README.md file with a random number (0-99)
 
 ## Contributing
 
