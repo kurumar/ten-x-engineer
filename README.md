@@ -14,9 +14,9 @@ This is a [Cloudflare worker](https://developers.cloudflare.com/workers/) that c
 
 ## Usage
 
-The worker will:
-- Run once per day at midnight UTC
-- Make 1-10 random commits
+The worker:
+- Runs once per day at midnight UTC
+- Makes (1-10) random commits
 - Each commit updates README.md file with a random number (0-99)
 
 ## Contributing
