@@ -1,4 +1,4 @@
-![GitHub stars](https://img.shields.io/github/stars/kurumar/ten-x-engineer)
+![GitHub stars](https://img.shields.io/github/stars/kurumar/ten-x-engineer?style=flat-square)
 
 # Ten-x-engineer worker
 
