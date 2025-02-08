@@ -1,9 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub stars](https://img.shields.io/github/stars/kurumar/ten-x-engineer-worker)
-![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)
-![GitHub last commit](https://img.shields.io/github/last-commit/kurumar/ten-x-engineer-worker)
-![GitHub issues](https://img.shields.io/github/issues/kurumar/ten-x-engineer-worker)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/kurumar/ten-x-engineer-worker)
+![GitHub stars](https://img.shields.io/github/stars/kurumar/ten-x-engineer)
 
 # Ten-x-engineer worker
 
