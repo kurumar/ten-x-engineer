@@ -1,7 +1,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/kurumar/ten-x-engineer?style=flat)
 
 
-# Ten-x-engineer worker
+# Ten-x-engineer worker 🧞
 
 This is a [Cloudflare worker](https://developers.cloudflare.com/workers/) that commits to a GitHub repository every day at midnight UTC to create shiny statistics on your GitHub profile.
 
