@@ -1,4 +1,4 @@
-# Ten-x-engineer Bot
+# Ten-x-engineer worker
 
 This is a [Cloudflare worker](https://developers.cloudflare.com/workers/) that commits to a GitHub repository every day at midnight UTC to create shiny statistics on your GitHub profile.
 
