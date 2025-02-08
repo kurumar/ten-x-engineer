@@ -19,6 +19,10 @@ The worker:
 - Makes (1-10) random commits
 - Each commit updates README.md file with a random number (0-99)
 
+## Example
+
+Repository example: [kurumar/ten-x-repository](https://github.com/kurumar/ten-x-repository)
+
 ## Contributing
 
 If you have any suggestions or feedback, please feel free to open an issue or submit a pull request.
