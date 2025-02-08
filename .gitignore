@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Cloudflare
+.wrangler/
+.dev.vars
+
+# Build
+worker/
+
+# OS
+.DS_Store

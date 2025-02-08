@@ -1,0 +1,6 @@
+name = "10x-engineer-worker"
+main = "src/index.ts"
+compatibility_date = "2025-02-08"
+
+[triggers]
+crons = ["0 0 * * *"]  # Runs at midnight UTC every day
