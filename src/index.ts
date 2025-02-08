@@ -7,7 +7,7 @@ interface Env {
 export default {
   async scheduled(event: ScheduledEvent, env: Env, ctx: ExecutionContext): Promise<void> {
     try {
-      const numberOfCommits = Math.floor(Math.random() * 10) + 1; // Random number between 1-10
+      const numberOfCommits = Math.floor(Math.random() * 10) + 1; // Random commits number between 1-10
       
       for (let i = 0; i < numberOfCommits; i++) {
         const randomNumber = Math.floor(Math.random() * 100);
@@ -26,7 +26,6 @@ export default {
           env
         );
 
-        // Add a small delay between commits
         await new Promise(resolve => setTimeout(resolve, 5000));
       }
     } catch (error: any) {
@@ -91,4 +90,4 @@ async function createOrUpdateFile(
   }
 
   return response.json();
-} 
+}
